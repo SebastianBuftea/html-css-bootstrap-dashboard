@@ -28,7 +28,9 @@
     color: white;
 }
 
-
+.no_border{
+    border: none;
+ }
 
 
 
@@ -77,6 +79,17 @@ background-color: rgb(8, 0, 58);
     background-color: bisque;
     
 }
+.upper_content_main{
+    min-height: 100px;
+    background-color: brown;
+
+}
+.inferior_contnte_main{
+    height: calc(100vh - 180px);
+    background-color: aqua;
+
+}
+
 
 
 
