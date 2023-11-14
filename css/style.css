@@ -13,13 +13,21 @@
 }
 
 .width_90{
-    width: 90%;
-   
+    width: 90%; 
 }
 
 .height_50{
     height: 50px;
 }
+
+.main_height{
+    height: calc(100vh - 80px);
+}
+
+.color_white{
+    color: white;
+}
+
 
 
 
@@ -29,7 +37,6 @@
              NAV
  ****************************/
 nav{
-    background-color: red;
     height: 80px;
     display: flex;
 }
@@ -49,7 +56,6 @@ nav{
     width: 80px; 
 }
 
-
 .container_nav span,
 .container_nav input
 {
@@ -61,17 +67,34 @@ nav{
  /* ***************************
             MAIN
  ****************************/
+.sidebar{
+width: 80px;
+background-color: rgb(8, 0, 58);
+}
+
+.content_{
+    width: calc(100% - 80px);
+    background-color: bisque;
+    
+}
 
 
 
-
-
+ /* ***************************
+           RESPONSIVITA
+ ****************************/
  @media screen and (min-width: 992px ){
     .container_nav:nth-of-type(2){
-        width: calc(100% - 400px);
-    }
-    .container_nav{
-        width: 200px;
-    }
+            width: calc(100% - 400px);
+        }
+
+    .container_nav,
+    .sidebar{
+            width: 200px;
+        }
+
+    .content_{
+        width: calc(100% - 200px);    
+        }
     
  }
