@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ***************************
              UTILITY 
  ****************************/
@@ -31,8 +37,10 @@
 .no_border{
     border: none;
  }
-
-
+.color_badge{
+    background-color:rgb(22, 91, 186);
+    font-size:medium;
+}
 
 
  /* ***************************
@@ -46,8 +54,6 @@ nav{
 .container_nav{
     width:80px;
     height: 80px;
-    background-color: aquamarine;
-    border: 1px solid black;
 }
 
 .container_nav:nth-of-type(2){
@@ -61,7 +67,7 @@ nav{
 .container_nav span,
 .container_nav input
 {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(229, 229, 229);
     border: none;
 }
 
@@ -71,7 +77,8 @@ nav{
  ****************************/
 .sidebar{
 width: 80px;
-background-color: rgb(8, 0, 58);
+background-color: rgb(5, 30, 52);
+background-image: url(../img/sidebar-bg.png);
 }
 
 .content_{
@@ -81,14 +88,13 @@ background-color: rgb(8, 0, 58);
 }
 .upper_content_main{
     min-height: 100px;
-    background-color: brown;
+    background-color:rgb(27, 114, 232);
 
 }
 .inferior_contnte_main{
     height: calc(100vh - 180px);
-    background-color: aqua;
-
 }
+
 
 
 
