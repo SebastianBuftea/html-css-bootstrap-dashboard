@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Dashboar</title>
 </head>
@@ -66,17 +66,17 @@
 
             <!-- FIRST BLOCK OF ICONS -->
             <div>
-                <div class="p-2 ">
+                <div class="p-2 background_change"  >
                     <span><i class="fa-solid fa-house fa-lg" style="color: #ffffff;"></i></span>
                     <span class="m-2 d-none d-lg-inline" >Home</span>
                 </div>
 
-                <div  class="p-2">
+                <div  class="p-2 background_change">
                     <span><i class="fa-solid fa-chart-simple fa-lg" style="color: #ffffff;"></i></span>
                     <span class="m-3  d-none d-lg-inline">Stats</span>
                 </div>
 
-                <div  class="p-2">
+                <div  class="p-2 background_change">
                     <span><i class="fa-solid fa-signal fa-lg" style="color: #ffffff;"></i></span>
                      <span  class="m-2  d-none d-lg-inline">Signals</span>
                 </div>
@@ -84,7 +84,7 @@
 
             <!-- SECOND BLOCK OF ICONS -->
             <div>
-                <div  class="p-2">
+                <div  class="p-2 background_change">
                      <span><i class="fa-solid fa-gear fa-lg" style="color: #ffffff;"></i></span>
                     <span  class="m-2  d-none d-lg-inline">Admin</span>
                 </div>
@@ -143,7 +143,7 @@
 
 
                             <!-- TABLE -->
-                            <table class="table table-responsive ">
+                            <table class="table table-responsive table-hover">
 
                                 <!-- thead  -->
                                 <thead class="text-center" >  
@@ -157,7 +157,7 @@
                                 </thead>
 
                                 <!-- tbody -->
-                                <tbody class="text-center">
+                                <tbody class="text-center ">
 
                                     <!-- ROW CLASS 75 -->
                                     <tr>
@@ -313,7 +313,7 @@
                                     </button>
                                   </h2>
                                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    <div class="accordion-body">Clicca sul +.</div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
@@ -323,7 +323,7 @@
                                     </button>
                                   </h2>
                                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    <div class="accordion-body">Clicca sul icona della campanella.</div>
                                   </div>
                                 </div>
                                 <div class="accordion-item">
@@ -333,7 +333,7 @@
                                     </button>
                                   </h2>
                                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    <div class="accordion-body">Certamente.</div>
                                   </div>
                                 </div>
                               </div>
@@ -415,7 +415,7 @@
         </div>
         
        <!-- OFFCANVAS -->
-       <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+       <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
