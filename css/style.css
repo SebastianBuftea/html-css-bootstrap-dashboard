@@ -84,6 +84,9 @@ nav{
     background-color: rgb(229, 229, 229);
     border: none;
 }
+.width_container_card{
+    width: 100%;
+}
 
 
  /* ***************************
@@ -126,7 +129,7 @@ tbody td:first-of-type{
  }
 
 .width_firstcol{    
-    width: 50%;
+    width: 35%;
 }
 
  /* ***************************
@@ -145,6 +148,7 @@ tbody td:first-of-type{
     .content_{
         width: calc(100% - 200px);    
         }
+      
     
  }
 
