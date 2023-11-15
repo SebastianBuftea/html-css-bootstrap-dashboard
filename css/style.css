@@ -42,6 +42,20 @@ body{
     font-size:medium;
 }
 
+.line_height30{
+    line-height: 30px;
+}
+
+
+.border_color_grey{
+    border:1px solid grey;
+    color: grey;
+}
+
+.size_button{
+    width: 35px;
+    height: 35px;
+}
 
  /* ***************************
              NAV
@@ -91,13 +105,29 @@ background-image: url(../img/sidebar-bg.png);
     background-color:rgb(27, 114, 232);
 
 }
-.inferior_contnte_main{
+.inferior_content_main{
     height: calc(100vh - 180px);
 }
 
 
+.img_avatar{
+    width: 30px;
+    margin-right: 10px;
+}
 
+/* table */
+thead td:first-of-type,
+tbody td:first-of-type{
+    text-align: start;
+}
 
+ table{
+    font-size:small ;
+ }
+
+.width_firstcol{    
+    width: 50%;
+}
 
  /* ***************************
            RESPONSIVITA
@@ -117,3 +147,6 @@ background-image: url(../img/sidebar-bg.png);
         }
     
  }
+
+
+
