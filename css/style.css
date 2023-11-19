@@ -21,6 +21,9 @@ body{
 .width_90{
     width: 90%; 
 }
+.ofcan_width{
+    min-width: 50%; 
+}
 
 .height_50{
     height: 50px;
